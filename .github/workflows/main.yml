@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build, Scan, Publish
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
       
     steps:
       - name: Checkout from Repo
